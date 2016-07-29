@@ -12,6 +12,8 @@
     <sound>sound\sound4</sound>
     <sound>sound\snd_dino_2</sound>
     <sound>sound\snd_dino_1</sound>
+    <sound>sound\snd_Musica</sound>
+    <sound>sound\snd_music</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Diamante</sprite>
@@ -25,9 +27,18 @@
     <sprite>sprites\spr_puerta_2</sprite>
     <sprite>sprites\spr_Llave</sprite>
     <sprite>sprites\spr_lock</sprite>
+    <sprite>sprites\spr_jugadorBoton</sprite>
+    <sprite>sprites\sprPlayer_2</sprite>
+    <sprite>sprites\spr_Player_2_Boton</sprite>
+    <sprite>sprites\sprNegro</sprite>
+    <sprite>sprites\spr_llave_dorada</sprite>
+    <sprite>sprites\spr_lock_dorado</sprite>
+    <sprite>sprites\spr_llave_morada</sprite>
+    <sprite>sprites\spr_lock_morado</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
+    <background>background\congrats</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -43,19 +54,31 @@
     <object>objects\obj_pared</object>
     <object>objects\obj_puerta_2</object>
     <object>objects\objEnemigoPADRE</object>
-    <object>objects\obj_Llave</object>
-    <object>objects\obj_lock</object>
     <object>objects\objPuertaPadre</object>
     <object>objects\objinicio</object>
     <object>objects\object13</object>
+    <object>objects\obj_jugador2</object>
+    <object>objects\obj_boton_jugador_1</object>
+    <object>objects\obj_boton_jugador_2</object>
+    <object>objects\obj_negro</object>
+    <object>objects\obj_Musica</object>
+    <objects name="llaves">
+      <object>objects\obj_lock</object>
+      <object>objects\obj_Llave</object>
+      <object>objects\obj_llaveMorada</object>
+      <object>objects\obj_llock_morado</object>
+      <object>objects\obj_lock_dorado</object>
+      <object>objects\obj_llaveDorada</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Inicio</room>
+    <room>rooms\Seleccion</room>
     <room>rooms\Nivel_1</room>
-    <room>rooms\Nivel_2_</room>
-    <room>rooms\Nivel_4</room>
+    <room>rooms\Nivel_2__</room>
     <room>rooms\Nivel_3</room>
     <room>rooms\Nivel_5</room>
+    <room>rooms\Felicitaciones</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
